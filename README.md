@@ -1,4 +1,19 @@
-        Linux kernel release 4.x <http://kernel.org/>
+# Kernel SafetyNet CTS Patches 
+Inspiration taken from [Paranoid Android](https://forum.xda-developers.com/le-pro3/development/rom-paranoid-android-t3635168) and [ElementalX](https://elementalx.org/).
+
+Paranoid Android:
+- Patch 1 - [proc: Remove verifiedbootstate flag from /proc/cmdline](https://github.com/AOSPA/android_kernel_oneplus_msm8996/commit/5771610418712eb6eb0c36cdd2da52bff5ecc15e#diff-c642f0bb1b95c6f380ab96167f5f8118)
+- Patch 2 - [proc: Remove additional SafetyNet flags from /proc/cmdline](https://github.com/AOSPA/android_kernel_oneplus_msm8996/commit/5771610418712eb6eb0c36cdd2da52bff5ecc15e#diff-c642f0bb1b95c6f380ab96167f5f8118)
+
+Flar2:
+- Patch 1 - [proc: Remove verifiedbootstate flag from /proc/cmdline](https://github.com/flar2/android_kernel_oneplus_msm8996/commit/6fa070485cf6494a9217c66aa3fad4971b5b85b7#diff-c642f0bb1b95c6f380ab96167f5f8118)
+- Patch 2 - [proc: Remove additional SafetyNet flags from /proc/cmdline](https://github.com/flar2/android_kernel_oneplus_msm8996/commit/8736c7adfe8dda689635bb13ec662c0549ad3854#diff-c642f0bb1b95c6f380ab96167f5f8118)
+
+More information on the safetynet checks can be found here:
+- [CTS](https://source.android.com/compatibility/cts)
+- [Safetynet Attestation](https://developer.android.com/training/safetynet/attestation#use-response-server)
+
+# Linux kernel release 4.x <http://kernel.org/>
 
 These are the release notes for Linux version 4.  Read them carefully,
 as they tell you what this is all about, explain how to install the
